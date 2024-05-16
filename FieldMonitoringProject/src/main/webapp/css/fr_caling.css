@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+textarea {
+  top: 0;
+  left: 0;
+  resize: both;
+  height: 100%;
+  border: none;
+  min-width: 100%;
+  min-height: 100%;
+  display: block;
+}
+td{
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+}
+input[type="text"] {
+            width: 100%;
+            MIN-WIDTH:10%;
+            max-width: 99.99%;
+            height: 130%;
+            max-height: 100%;
+            padding: 5px;
+             transition: width 0.25s;
+            box-sizing: border-box; /* Ensure padding is included in width and height */
+ }
+ 
+table{
+	column-width: 40px;
+}
+.blink {
+  animation: blink 3s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    color: blue;
+  }
+}
+
+
+/*.blink_me {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+blink {color: red;
+  font-size: 30px
+}*/
